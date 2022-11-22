@@ -35,7 +35,7 @@ checkin_data = {
 }
 '''  ####################！！！通知信息配置！！！(按需修改，具体参照Readme)########## '''
 # 通知方式
-notification_types = []  # 可选参数:wx_pusher|push_plus|telegram_bot, 可多选。 e,g. notification_types = ["wx_pusher", "telegram_bot"]
+notification_types = ["wx_pusher"]  # 可选参数:wx_pusher|push_plus|telegram_bot, 可多选。 e,g. notification_types = ["wx_pusher", "telegram_bot"]
 # wx_pusher推送
 wx_pusher_token = "AT_cG0rKzmhLNm2FtT3231vkqdeyNeQnHd9"    # wx_pusher推送token，必填
 wx_pusher_uids = ["UID_IZU2letlthOmo8S5hNrKbl7ubnxY"]      # 需要推送目标的UID，是一个数组,元素类型为string。注意uids和topicIds可以同时填写，也可以只填写一个 e.g. ["UID_XXXXX", "UID_XXXXX"]
