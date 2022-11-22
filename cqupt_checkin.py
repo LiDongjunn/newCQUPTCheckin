@@ -613,7 +613,7 @@ def wx_pusher(title, content):
     if wx_pusher_topic_ids!=[]:
         data["topicIds"] = wx_pusher_topic_ids
 
-    if wx_pusher_uids.length!=[]:
+    if len(wx_pusher_uids) !=[]:
         data["uids"] = wx_pusher_uids
 
     try:
