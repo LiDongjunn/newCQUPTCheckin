@@ -111,6 +111,7 @@ headers = {
                   "Chrome/87.0.4280.141 Safari/537.36 "
 }
 
+print("checkin_data：{}".format(checkin_data))
 
 # 处理二维码
 def handle_captcha(session: requests.Session):
