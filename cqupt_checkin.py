@@ -699,6 +699,8 @@ def send_notification(title, content):
 
 try:
     print("checkin_data：{}".format(checkin_data))
+    print("USERNAME：{}".format(USERNAME))
+    print("PASSWORD：{}".format(PASSWORD))
     main()
 except Exception as e:
     if str(e) == "今日已打卡,不再打卡,脚本退出":
