@@ -4,7 +4,7 @@ on:
   push:
     branches: [ LiuJiaxin ]
   schedule:
-    - cron:  '1 * * * *'
+    - cron:  '1 7/5 * * *'
   workflow_dispatch:
 
 jobs:
